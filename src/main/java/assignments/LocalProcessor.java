@@ -47,7 +47,7 @@ public class LocalProcessor {
     }
 
     @FullNameProcessorGeneratorAnnotation
-    public String generateProcessorFullName(LinkedList<String> stringList) {
+    public String generateProcessorFullName(List<String> stringList) {
         builder = new StringBuilder(processorName);
         for (String str : stringList) {
             builder.append(str).append(' ');
