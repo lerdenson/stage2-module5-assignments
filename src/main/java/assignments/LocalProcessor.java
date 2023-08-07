@@ -37,8 +37,8 @@ public class LocalProcessor {
     }
 
     @ListIteratorAnnotation
-    public void listIterator(LinkedList<String> stringList) {
-        this.stringList = new LinkedList<>(stringList);
+    public void listIterator(List<String> stringList) {
+        this.stringList = stringList;
         for (String str : stringList) {
             if (str != null) {
                 System.out.println(str.hashCode());
