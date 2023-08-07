@@ -37,7 +37,7 @@ public class LocalProcessor {
     }
 
     @ListIteratorAnnotation
-    public void iterateList(LinkedList<String> stringList) {
+    public void listIterator(LinkedList<String> stringList) {
         this.stringList = new LinkedList<>(stringList);
         for (String str : stringList) {
             if (str != null) {
